@@ -145,7 +145,7 @@ This category focuses on the economic health of the platform, identifying primar
 | Business Question | Data Visualization (Output) |
 | --- | --- |
 | **Q.1** Measure the Gross Platform Revenue (25% commission) for each region and rank them from highest to lowest. | ![](images/output1.jpg) |
-| **Q.2** Measure city-level performance by calculating Gross Platform Revenue, Total Completed Rides, Average Fare, and Shadow Revenue. | ![](images/output2.jpg) |
+| **Q.2** Measure city-level performance by calculating Gross Platform Revenue, Platform Revenue Loss and Total Loss. | ![](images/output2.jpg) |
 | **Q.3** Identify the Top 5% of Power Riders in each city and determine if their preferred payment mode differs from the bottom 95%. | ![](images/output3.jpg) |
 | **Q.4** Calculate the Month-over-Month (MoM) Growth Percentage in total completed ride volume. | ![](images/output4.jpg) |
 
