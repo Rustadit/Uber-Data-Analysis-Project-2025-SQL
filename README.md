@@ -21,7 +21,7 @@ Uber has evolved into a multi-modal ride-sharing platform offering services acro
 
 ## **Data Structure and Overview**
 
-This section of your portfolio provides a technical blueprint of the project. It describes how different data points—from a user’s click on a phone to a driver’s completed trip—are connected through a relational schema.
+This section provides blueprint of the project. It describes how different data points—from a user’s click on a phone to a driver’s completed trip—are connected through a relational schema.
 
 ### **Entity Relationship Diagram (ERD)**
 
