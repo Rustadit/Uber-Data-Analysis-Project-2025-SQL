@@ -13,9 +13,9 @@
     GROUP BY 1
 
 
---Q.2 Measure city-level performance by calculating Gross Platform Revenue, Total Completed Rides, Average Fare, and Shadow Revenue (Potential revenue lost to "No Driver Found" and "Cancelled by Driver" statuses) to evaluate marketplace health across cities.
+--Q.2 Measure city-level performance by calculating Gross Platform Revenue, Platform Revenue Loss (Potential revenue lost to "No Driver Found" and "Cancelled by Driver" statuses) to evaluate marketplace health across cities) and Total Loss.
 
-    --shadow revenue has been calculated by counting the rides cancelled by driver or the rides for which status was "No driver found" and multiplying it by average ride fare in that corresponding city
+    --plarform revenue loss has been calculated by counting the rides cancelled by driver or the rides for which status was "No driver found" and multiplying it by average ride fare in that corresponding city
     SELECT c1_name city_name, (total_platform_revenue/4) AS gross_platform_revenue, ((no_driver_found_count+driver_cancelled_count)*completed_rides_avg_fare)/4 AS platform_revenue_loss, ((no_driver_found_count+driver_cancelled_count)*completed_rides_avg_fare) AS total_loss
     FROM (WITH completed_rides_revenue as
                  --this table calculates city-wise revenue for completed rides
@@ -346,3 +346,4 @@
            JOIN rides r
            ON apps.session_id=r.session_id
            GROUP BY 1
+
