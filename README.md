@@ -118,10 +118,10 @@ User behavior analysis distinguishes **Top 5% Power Riders**, who prefer **Cash 
 
 Device-specific data indicates that **iOS** users have a slight lead in conversion at **69.94%**, but **Android** users generate the highest engagement value with a **revenue per session of ₹593.25**. Finally, the platform faces a critical retention challenge with **1,416 "At-Risk" users** who have an average historical spend of **₹3,338** but have been inactive for an average of **129 days**.
 
-This section provides an exhaustive breakdown of the analytical findings across 13 key business questions. Each insight is derived directly from the observed data outputs and focuses on the structural patterns and metrics found within the 2025 marketplace simulation.
-
 
 ## **Deep-Dive Insights**
+
+This section provides an exhaustive breakdown of the analytical findings across 13 key business questions. Each insight is derived directly from the observed data outputs and focuses on the structural patterns and metrics found within the 2025 marketplace simulation.
 
 ### **I. Financial & Marketplace Performance**
 
