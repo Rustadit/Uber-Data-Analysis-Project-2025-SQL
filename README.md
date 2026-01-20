@@ -142,7 +142,7 @@ This category focuses on the economic health of the platform, identifying primar
 
 
 
-| Business Question | Data Visualization (Output) |
+| Business Question | Output |
 | --- | --- |
 | **Q.1** Measure the Gross Platform Revenue (25% commission) for each region and rank them from highest to lowest. | ![](images/output1.jpg) |
 | **Q.2** Measure city-level performance by calculating Gross Platform Revenue, Platform Revenue Loss and Total Loss. | ![](images/output2.jpg) |
@@ -172,7 +172,7 @@ This section audits the physical performance of the fleet and the geographical b
 
 
 
-| Business Question | Data Visualization (Output) |
+| Business Question | Output |
 | --- | --- |
 | **Q.5** Compute the vehicle fleet coverage in terms of Total bookings, Success rate, Average distance, and Total distance. | ![](images/output5.jpg) |
 | **Q.6** Measure the average Driver Arrival Lag for each city to identify traffic or supply density delays. | ![](images/output6.jpg) |
@@ -200,7 +200,7 @@ This category examines the technical performance of the application and the beha
 
 
 
-| Business Question | Data Visualization (Output) |
+| Business Question | Output |
 | --- | --- |
 | **Q.10** Calculate the Session-to-Booked-Ride Conversion Rate to measure app effectiveness. | ![](images/output10.jpg) |
 | **Q.11** Compare the Completion-to-Cancellation Ratio for rides booked via different modes of payment. | ![](images/output11.jpg) |
