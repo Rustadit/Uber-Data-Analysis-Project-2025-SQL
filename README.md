@@ -224,8 +224,9 @@ Based on the comprehensive analysis of the 2025 Uber India dataset, the followin
 
 ---
 
-Important Links:
-Uber Dataset --> 
+Important Links:  
+Uber Dataset --> ![]()  
+Queries Analysis --> ![]()
 
 
 
