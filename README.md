@@ -6,8 +6,9 @@
 * [Data Structure and Overview](#data-structure-and-overview)
 * [Project Assumptions and Limitations](#project-assumptions-and-limitations)
 * [Executive Summary](#executive-summary)
-* [Usage](#usage)
-* [License](#license)
+* [Deep-Dive Insights](#deep-dive-insights)
+* [Recommendations](#recommendations)
+
 
 ---
 
@@ -143,10 +144,10 @@ This category focuses on the economic health of the platform, identifying primar
 
 | Business Question | Data Visualization (Output) |
 | --- | --- |
-| **Q.1** Measure the Gross Platform Revenue (25% commission) for each region and rank them from highest to lowest. | ![](images/entity_relationship_schema.jpg) |
-| **Q.2** Measure city-level performance by calculating Gross Platform Revenue, Total Completed Rides, Average Fare, and Shadow Revenue. | ![](images/entity_relationship_schema.jpg) |
-| **Q.3** Identify the Top 5% of Power Riders in each city and determine if their preferred payment mode differs from the bottom 95%. | ![](images/entity_relationship_schema.jpg) |
-| **Q.4** Calculate the Month-over-Month (MoM) Growth Percentage in total completed ride volume. | ![](images/entity_relationship_schema.jpg) |
+| **Q.1** Measure the Gross Platform Revenue (25% commission) for each region and rank them from highest to lowest. | ![](images/output1.jpg) |
+| **Q.2** Measure city-level performance by calculating Gross Platform Revenue, Total Completed Rides, Average Fare, and Shadow Revenue. | ![](images/output2.jpg) |
+| **Q.3** Identify the Top 5% of Power Riders in each city and determine if their preferred payment mode differs from the bottom 95%. | ![](images/output3.jpg) |
+| **Q.4** Calculate the Month-over-Month (MoM) Growth Percentage in total completed ride volume. | ![](images/output4.jpg) |
 
 
 ### **II. Operational & Logistics Efficiency**
@@ -173,13 +174,12 @@ This section audits the physical performance of the fleet and the geographical b
 
 | Business Question | Data Visualization (Output) |
 | --- | --- |
-| **Q.5** Compute the vehicle fleet coverage in terms of Total bookings, Success rate, Average distance, and Total distance. | ![](images/entity_relationship_schema.jpg) |
-| **Q.6** Measure the average Driver Arrival Lag for each city to identify traffic or supply density delays. | ![](images/entity_relationship_schema.jpg) |
-| **Q.7** Identify the top 5 Pickup Localities in each city with the highest cancellation rates. | ![](images/entity_relationship_schema.jpg) |
-| **Q.8** Identify the percentage of Under-Utilized Drivers falling in the bottom 25% of monthly trip volume. | ![](images/entity_relationship_schema.jpg) |
-| **Q.9** Identify the specific Hour of the Day with the highest frequency of 'No Driver Found' statuses. | ![](images/entity_relationship_schema.jpg) |
+| **Q.5** Compute the vehicle fleet coverage in terms of Total bookings, Success rate, Average distance, and Total distance. | ![](images/output5.jpg) |
+| **Q.6** Measure the average Driver Arrival Lag for each city to identify traffic or supply density delays. | ![](images/output6.jpg) |
+| **Q.7** Identify the top 5 Pickup Localities in each city with the highest cancellation rates. | ![](images/output7.jpg) |
+| **Q.8** Identify the percentage of Under-Utilized Drivers falling in the bottom 25% of monthly trip volume. | ![](images/output8.jpg) |
+| **Q.9** Identify the specific Hour of the Day with the highest frequency of 'No Driver Found' statuses. | ![](images/output9.jpg) |
 
----
 
 ### **III. User Behavior & Product Insights**
 
@@ -202,16 +202,31 @@ This category examines the technical performance of the application and the beha
 
 | Business Question | Data Visualization (Output) |
 | --- | --- |
-| **Q.10** Calculate the Session-to-Booked-Ride Conversion Rate to measure app effectiveness. | ![](images/entity_relationship_schema.jpg) |
-| **Q.11** Compare the Completion-to-Cancellation Ratio for rides booked via different modes of payment. | ![](images/entity_relationship_schema.jpg) |
-| **Q.12** Perform an RFM Analysis to identify the total count of "At-Risk" users. | ![](images/entity_relationship_schema.jpg) |
-| **Q.13** Evaluate device-driven differences in conversion, value generation, and engagement. | ![](images/entity_relationship_schema.jpg) |
+| **Q.10** Calculate the Session-to-Booked-Ride Conversion Rate to measure app effectiveness. | ![](images/output10.jpg) |
+| **Q.11** Compare the Completion-to-Cancellation Ratio for rides booked via different modes of payment. | ![](images/output11.jpg) |
+| **Q.12** Perform an RFM Analysis to identify the total count of "At-Risk" users. | ![](images/output12.jpg) |
+| **Q.13** Evaluate device-driven differences in conversion, value generation, and engagement. | ![](images/output13.jpg) |
+
+
+## **Recommendations**
+
+Based on the comprehensive analysis of the 2025 Uber India dataset, the following strategic actions are proposed to optimize marketplace performance and drive long-term growth.
+
+1. To mitigate the substantial revenue leakage observed in high-performing cities like Kolkata, the platform should implement a location-based incentive model for drivers. This model should specifically target identified high-friction zones such as Hayathnagar and Chanakyapuri, where cancellation rates are disproportionately high. By offering localized performance bonuses in these "bottleneck" areas, the platform can improve supply density and reduce the significant "Shadow Revenue" currently lost to unmet demand.
+
+2. Operational efficiency in cities with high arrival lags, particularly Pune, can be improved by refining the dispatch algorithm to prioritize proximity over tiered availability during peak traffic windows. This approach will help lower the average arrival time, thereby reducing the likelihood of user-side cancellations caused by wait-time frustration. Additionally, addressing the high percentage of under-utilized drivers in markets like Hyderabad is critical; implementing a tiered "active-hour" reward system could incentivize these partners to maintain higher trip volumes, improving overall marketplace liquidity.
+
+3. To capitalize on late-night demand, surge pricing algorithms and driver "shift-completion" incentives should be re-calibrated for the 11 PM window. This specific timeframe consistently records the highest frequency of supply failure, and targeted interventions here could recover a significant portion of missed bookings. Furthermore, promoting digital payment methods such as UPI and Debit Cards can stabilize the marketplace, as these modes correlate with higher completion-to-cancellation ratios compared to wallet-based transactions.
+
+4. For user retention, a proactive "Service Recovery" campaign should be deployed for the high-volume "At-Risk" segment. These users, who have a strong history of high spending but have remained inactive for over four months, require targeted re-engagement strategies—such as personalized loyalty discounts—to prevent permanent churn.
+
+5. Finally, technical optimizations should focus on the Android user base; while these users generate high revenue per session, improving the technical conversion funnel to match the efficiency of iOS would ensure that high user intent consistently translates into completed transactions.
 
 ---
 
-**Next Step for your Project**
+Important Links:
+Uber Dataset --> 
 
-* Would you like me to draft the final **Recommendations** section to conclude your README?
 
 
 
