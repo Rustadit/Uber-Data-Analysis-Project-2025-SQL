@@ -1,0 +1,1501 @@
+Vehicle_ID,Type,Fuel_Type
+1,Go Sedan,Electric
+2,Uber XL,Electric
+3,Uber Go,Diesel
+4,Uber Go,Electric
+5,Uber Green,Electric
+6,Go Priority,CNG
+7,Go Sedan,Petrol
+8,Uber XL,Diesel
+9,Uber Green,Electric
+10,Uber Green,Electric
+11,Uber Auto,Diesel
+12,Bike,Petrol
+13,Uber Auto,Diesel
+14,Uber Green,Electric
+15,Bike,Petrol
+16,Uber Green,Electric
+17,Uber Go,Petrol
+18,Go Sedan,Electric
+19,Uber Green,Electric
+20,Go Priority,Diesel
+21,Go Sedan,Petrol
+22,Bike,Petrol
+23,Uber Green,Electric
+24,Uber Green,Electric
+25,Bike,Electric
+26,Bike,Petrol
+27,Go Sedan,Petrol
+28,Uber Auto,Petrol
+29,Premier,CNG
+30,Go Sedan,CNG
+31,Go Priority,Electric
+32,Premier,CNG
+33,Go Priority,Diesel
+34,Uber Auto,Diesel
+35,Bike,Electric
+36,Premier,Petrol
+37,Black,Petrol
+38,Uber XL,Diesel
+39,Uber Green,Electric
+40,Uber XL,CNG
+41,Uber Auto,Electric
+42,Uber Auto,Diesel
+43,Black,Petrol
+44,Uber XL,Diesel
+45,Uber Green,Electric
+46,Uber XL,Diesel
+47,Go Priority,Petrol
+48,Black,Electric
+49,Uber Go,CNG
+50,Black,Petrol
+51,Black,Diesel
+52,Bike,Electric
+53,Uber Green,Electric
+54,Black,Petrol
+55,Uber Go,Diesel
+56,Uber XL,Electric
+57,Premier,Diesel
+58,Uber Green,Electric
+59,Go Priority,Electric
+60,Black,CNG
+61,Uber Auto,Petrol
+62,Uber XL,Diesel
+63,Premier,CNG
+64,Go Priority,Diesel
+65,Black,Diesel
+66,Uber Auto,Electric
+67,Black,CNG
+68,Uber Green,Electric
+69,Go Sedan,Petrol
+70,Bike,Petrol
+71,Premier,Diesel
+72,Uber Go,Diesel
+73,Uber XL,CNG
+74,Black,Electric
+75,Premier,Petrol
+76,Black,CNG
+77,Go Sedan,CNG
+78,Go Priority,Electric
+79,Uber Auto,Diesel
+80,Uber Green,Electric
+81,Go Sedan,Electric
+82,Uber Auto,Electric
+83,Black,Diesel
+84,Bike,Electric
+85,Uber Auto,Electric
+86,Premier,Petrol
+87,Bike,Electric
+88,Uber XL,Electric
+89,Uber Auto,Electric
+90,Premier,Petrol
+91,Bike,Petrol
+92,Uber XL,Diesel
+93,Go Priority,Petrol
+94,Bike,Electric
+95,Uber Auto,Electric
+96,Black,Petrol
+97,Go Sedan,CNG
+98,Premier,CNG
+99,Black,Diesel
+100,Premier,Diesel
+101,Black,Diesel
+102,Uber Auto,CNG
+103,Go Priority,CNG
+104,Uber Go,Diesel
+105,Uber Auto,Electric
+106,Uber Green,Electric
+107,Uber Green,Electric
+108,Uber XL,CNG
+109,Go Priority,CNG
+110,Go Sedan,Electric
+111,Uber Green,Electric
+112,Uber Green,Electric
+113,Uber Go,Electric
+114,Uber Green,Electric
+115,Go Sedan,Diesel
+116,Black,CNG
+117,Go Priority,Petrol
+118,Uber Auto,Petrol
+119,Uber Green,Electric
+120,Bike,Petrol
+121,Uber Green,Electric
+122,Premier,Electric
+123,Go Priority,Petrol
+124,Go Priority,Diesel
+125,Go Sedan,Petrol
+126,Premier,Electric
+127,Uber XL,Electric
+128,Bike,Electric
+129,Premier,Diesel
+130,Go Priority,CNG
+131,Uber Go,Electric
+132,Bike,Petrol
+133,Go Sedan,Electric
+134,Black,Petrol
+135,Uber Green,Electric
+136,Uber Go,Petrol
+137,Go Priority,Electric
+138,Black,Electric
+139,Uber XL,Diesel
+140,Uber Go,Diesel
+141,Uber XL,CNG
+142,Uber Go,CNG
+143,Premier,CNG
+144,Premier,CNG
+145,Black,CNG
+146,Uber Go,CNG
+147,Premier,Diesel
+148,Go Sedan,CNG
+149,Uber Go,CNG
+150,Bike,Electric
+151,Premier,CNG
+152,Premier,CNG
+153,Go Priority,CNG
+154,Uber Go,Diesel
+155,Uber Auto,Petrol
+156,Uber Green,Electric
+157,Uber XL,Diesel
+158,Uber XL,Diesel
+159,Uber Go,Diesel
+160,Go Priority,Petrol
+161,Uber Go,Diesel
+162,Bike,Petrol
+163,Go Priority,Diesel
+164,Black,Petrol
+165,Premier,CNG
+166,Black,Electric
+167,Uber XL,Diesel
+168,Uber Auto,Electric
+169,Uber Auto,CNG
+170,Uber Auto,Diesel
+171,Premier,Diesel
+172,Uber Go,CNG
+173,Go Priority,Electric
+174,Go Priority,Petrol
+175,Go Sedan,Petrol
+176,Uber XL,CNG
+177,Uber XL,Diesel
+178,Go Sedan,Diesel
+179,Uber XL,Diesel
+180,Go Priority,Petrol
+181,Bike,Petrol
+182,Black,CNG
+183,Bike,Petrol
+184,Uber Green,Electric
+185,Premier,Electric
+186,Uber Auto,CNG
+187,Premier,Petrol
+188,Uber XL,Petrol
+189,Uber Green,Electric
+190,Uber Go,Electric
+191,Uber XL,Diesel
+192,Uber Green,Electric
+193,Black,Diesel
+194,Premier,CNG
+195,Uber Go,Diesel
+196,Go Priority,CNG
+197,Bike,Petrol
+198,Uber Go,Electric
+199,Go Priority,Electric
+200,Uber Go,Electric
+201,Uber Green,Electric
+202,Premier,Diesel
+203,Go Priority,Petrol
+204,Go Sedan,Electric
+205,Uber XL,Electric
+206,Uber XL,CNG
+207,Uber Go,CNG
+208,Uber Auto,Diesel
+209,Go Priority,Electric
+210,Uber Go,Electric
+211,Uber XL,CNG
+212,Bike,Electric
+213,Go Priority,Electric
+214,Uber Go,CNG
+215,Uber Auto,CNG
+216,Uber Green,Electric
+217,Go Priority,Electric
+218,Uber XL,CNG
+219,Uber Go,Diesel
+220,Uber Green,Electric
+221,Go Sedan,Petrol
+222,Uber Go,CNG
+223,Uber XL,Petrol
+224,Go Priority,CNG
+225,Uber XL,CNG
+226,Uber Auto,CNG
+227,Go Sedan,CNG
+228,Uber Go,Electric
+229,Uber Go,CNG
+230,Uber XL,CNG
+231,Premier,CNG
+232,Uber Auto,Diesel
+233,Go Priority,Electric
+234,Uber Auto,Diesel
+235,Uber Go,Diesel
+236,Premier,Diesel
+237,Premier,Electric
+238,Uber Go,CNG
+239,Premier,CNG
+240,Bike,Petrol
+241,Premier,Petrol
+242,Uber Green,Electric
+243,Uber Green,Electric
+244,Uber Auto,Electric
+245,Uber Go,CNG
+246,Premier,Petrol
+247,Uber Go,Diesel
+248,Premier,Electric
+249,Go Sedan,Petrol
+250,Uber Go,Electric
+251,Premier,Diesel
+252,Uber Green,Electric
+253,Uber Green,Electric
+254,Bike,Electric
+255,Uber Auto,CNG
+256,Go Sedan,Petrol
+257,Uber Go,Petrol
+258,Uber Auto,Petrol
+259,Go Priority,CNG
+260,Bike,Petrol
+261,Go Sedan,CNG
+262,Uber XL,Petrol
+263,Uber Green,Electric
+264,Uber Green,Electric
+265,Uber Green,Electric
+266,Bike,Petrol
+267,Uber Green,Electric
+268,Go Priority,Petrol
+269,Uber Go,Electric
+270,Bike,Petrol
+271,Premier,Diesel
+272,Uber Go,Diesel
+273,Go Priority,Diesel
+274,Premier,Electric
+275,Go Sedan,Petrol
+276,Uber XL,CNG
+277,Go Priority,Electric
+278,Go Priority,Electric
+279,Black,CNG
+280,Uber Go,CNG
+281,Go Sedan,Petrol
+282,Uber Auto,CNG
+283,Go Sedan,Diesel
+284,Go Priority,Diesel
+285,Uber Auto,Petrol
+286,Black,CNG
+287,Black,CNG
+288,Bike,Electric
+289,Uber XL,Diesel
+290,Go Sedan,CNG
+291,Black,Electric
+292,Go Priority,Diesel
+293,Go Priority,Diesel
+294,Uber Go,Electric
+295,Go Priority,CNG
+296,Premier,Diesel
+297,Uber Go,Diesel
+298,Go Sedan,Diesel
+299,Uber Auto,Petrol
+300,Bike,Electric
+301,Uber Green,Electric
+302,Bike,Petrol
+303,Black,Electric
+304,Uber Green,Electric
+305,Uber Auto,Petrol
+306,Uber Auto,Diesel
+307,Uber Go,Electric
+308,Premier,Electric
+309,Bike,Electric
+310,Go Priority,Electric
+311,Go Priority,CNG
+312,Premier,Petrol
+313,Go Sedan,Diesel
+314,Uber Auto,Diesel
+315,Black,Petrol
+316,Go Sedan,Petrol
+317,Black,Diesel
+318,Black,Diesel
+319,Premier,Electric
+320,Black,Petrol
+321,Go Priority,Petrol
+322,Uber XL,Diesel
+323,Uber Green,Electric
+324,Go Sedan,Diesel
+325,Uber Green,Electric
+326,Go Sedan,Petrol
+327,Black,CNG
+328,Bike,Petrol
+329,Go Sedan,Electric
+330,Bike,Electric
+331,Black,CNG
+332,Black,Diesel
+333,Uber Go,Petrol
+334,Bike,Petrol
+335,Uber XL,CNG
+336,Uber XL,Electric
+337,Black,CNG
+338,Uber Auto,Petrol
+339,Uber XL,Petrol
+340,Premier,Petrol
+341,Black,Diesel
+342,Go Sedan,Electric
+343,Go Sedan,Petrol
+344,Uber Green,Electric
+345,Black,Petrol
+346,Go Priority,CNG
+347,Go Priority,Electric
+348,Go Priority,Electric
+349,Uber Auto,Electric
+350,Uber Go,Electric
+351,Uber Go,CNG
+352,Premier,Electric
+353,Black,Diesel
+354,Uber XL,Diesel
+355,Go Priority,Petrol
+356,Uber Go,Electric
+357,Bike,Petrol
+358,Uber XL,Diesel
+359,Uber Green,Electric
+360,Uber XL,Electric
+361,Go Priority,Electric
+362,Uber XL,Diesel
+363,Uber XL,Electric
+364,Black,Petrol
+365,Go Priority,Petrol
+366,Black,Electric
+367,Uber XL,Petrol
+368,Uber Green,Electric
+369,Go Priority,CNG
+370,Uber Go,Diesel
+371,Bike,Petrol
+372,Premier,Electric
+373,Premier,Petrol
+374,Uber XL,Electric
+375,Go Sedan,CNG
+376,Go Priority,Electric
+377,Uber Auto,Electric
+378,Uber Auto,Electric
+379,Uber Green,Electric
+380,Uber Auto,Petrol
+381,Uber Go,Petrol
+382,Uber Go,CNG
+383,Bike,Petrol
+384,Uber XL,Diesel
+385,Go Sedan,Petrol
+386,Bike,Electric
+387,Go Sedan,Electric
+388,Bike,Petrol
+389,Black,CNG
+390,Uber Go,Diesel
+391,Uber Green,Electric
+392,Premier,Petrol
+393,Go Sedan,Petrol
+394,Premier,CNG
+395,Black,Petrol
+396,Black,Diesel
+397,Go Sedan,CNG
+398,Uber Auto,CNG
+399,Uber XL,CNG
+400,Uber Auto,CNG
+401,Go Sedan,Petrol
+402,Go Sedan,Electric
+403,Uber XL,Petrol
+404,Go Sedan,Petrol
+405,Uber Green,Electric
+406,Uber Go,Diesel
+407,Uber Auto,CNG
+408,Black,CNG
+409,Uber Green,Electric
+410,Go Priority,Electric
+411,Go Sedan,Petrol
+412,Uber Go,Petrol
+413,Black,Electric
+414,Uber Green,Electric
+415,Uber Green,Electric
+416,Premier,Electric
+417,Uber XL,CNG
+418,Go Sedan,Electric
+419,Go Sedan,Diesel
+420,Uber Green,Electric
+421,Go Priority,Electric
+422,Bike,Petrol
+423,Go Sedan,CNG
+424,Go Sedan,Diesel
+425,Bike,Electric
+426,Black,Petrol
+427,Go Sedan,Diesel
+428,Go Priority,CNG
+429,Bike,Electric
+430,Uber Auto,CNG
+431,Go Sedan,Petrol
+432,Premier,Electric
+433,Go Sedan,CNG
+434,Uber Auto,Electric
+435,Premier,Electric
+436,Uber XL,Petrol
+437,Bike,Petrol
+438,Go Sedan,CNG
+439,Bike,Petrol
+440,Bike,Electric
+441,Premier,CNG
+442,Go Priority,Diesel
+443,Uber Green,Electric
+444,Premier,Petrol
+445,Go Priority,Diesel
+446,Bike,Electric
+447,Bike,Electric
+448,Bike,Petrol
+449,Premier,CNG
+450,Go Priority,Electric
+451,Uber XL,Diesel
+452,Go Sedan,Electric
+453,Uber Go,Electric
+454,Bike,Electric
+455,Black,Diesel
+456,Uber Auto,Petrol
+457,Go Sedan,Petrol
+458,Uber Auto,CNG
+459,Bike,Electric
+460,Uber XL,Petrol
+461,Bike,Petrol
+462,Bike,Petrol
+463,Uber Green,Electric
+464,Bike,Electric
+465,Uber Go,Electric
+466,Premier,Petrol
+467,Bike,Electric
+468,Go Sedan,Electric
+469,Premier,Electric
+470,Uber XL,Electric
+471,Uber Auto,Petrol
+472,Uber Green,Electric
+473,Go Sedan,Electric
+474,Uber Go,CNG
+475,Premier,Diesel
+476,Bike,Electric
+477,Black,Petrol
+478,Go Sedan,Electric
+479,Uber Green,Electric
+480,Uber XL,CNG
+481,Uber Green,Electric
+482,Premier,Petrol
+483,Go Priority,CNG
+484,Bike,Petrol
+485,Go Priority,Diesel
+486,Black,Electric
+487,Uber Green,Electric
+488,Bike,Electric
+489,Uber Auto,CNG
+490,Uber Auto,Electric
+491,Uber Green,Electric
+492,Uber Go,Diesel
+493,Uber Green,Electric
+494,Go Priority,Diesel
+495,Uber XL,Petrol
+496,Black,Diesel
+497,Premier,Diesel
+498,Go Priority,CNG
+499,Go Priority,Diesel
+500,Go Sedan,Diesel
+501,Go Priority,Diesel
+502,Bike,Electric
+503,Premier,Electric
+504,Go Priority,Diesel
+505,Go Sedan,Electric
+506,Uber Auto,Electric
+507,Premier,Electric
+508,Uber Auto,Electric
+509,Bike,Petrol
+510,Uber Green,Electric
+511,Go Priority,CNG
+512,Go Sedan,Petrol
+513,Bike,Electric
+514,Premier,Diesel
+515,Premier,Electric
+516,Premier,Diesel
+517,Uber Go,CNG
+518,Go Priority,Diesel
+519,Uber Go,CNG
+520,Black,Electric
+521,Go Sedan,Petrol
+522,Bike,Electric
+523,Go Sedan,Electric
+524,Black,Diesel
+525,Uber Go,CNG
+526,Premier,CNG
+527,Premier,Electric
+528,Go Sedan,Petrol
+529,Uber XL,Diesel
+530,Uber XL,Petrol
+531,Bike,Electric
+532,Uber Auto,Diesel
+533,Go Priority,Diesel
+534,Bike,Electric
+535,Premier,CNG
+536,Black,Diesel
+537,Uber Green,Electric
+538,Uber Go,Petrol
+539,Uber Auto,CNG
+540,Uber XL,CNG
+541,Go Sedan,Electric
+542,Uber Go,CNG
+543,Uber Auto,Electric
+544,Uber Go,Electric
+545,Go Sedan,Petrol
+546,Go Priority,Electric
+547,Go Priority,CNG
+548,Uber Green,Electric
+549,Uber XL,Electric
+550,Premier,Petrol
+551,Uber Auto,Petrol
+552,Uber Go,CNG
+553,Uber Auto,Electric
+554,Uber Go,Electric
+555,Black,Electric
+556,Go Priority,Petrol
+557,Uber XL,Diesel
+558,Go Priority,Petrol
+559,Uber XL,CNG
+560,Black,Petrol
+561,Go Sedan,CNG
+562,Go Priority,CNG
+563,Black,Petrol
+564,Black,CNG
+565,Premier,Diesel
+566,Premier,Electric
+567,Uber XL,Electric
+568,Bike,Petrol
+569,Go Sedan,CNG
+570,Go Sedan,CNG
+571,Uber Go,Electric
+572,Uber XL,CNG
+573,Black,CNG
+574,Go Sedan,Diesel
+575,Uber Go,CNG
+576,Go Priority,Diesel
+577,Premier,Diesel
+578,Premier,Diesel
+579,Premier,Petrol
+580,Black,CNG
+581,Bike,Petrol
+582,Uber Go,Diesel
+583,Black,Diesel
+584,Black,Diesel
+585,Uber Green,Electric
+586,Bike,Electric
+587,Uber Green,Electric
+588,Uber XL,Petrol
+589,Go Priority,CNG
+590,Black,Petrol
+591,Go Sedan,Electric
+592,Black,Diesel
+593,Uber Green,Electric
+594,Black,CNG
+595,Uber XL,Diesel
+596,Premier,Electric
+597,Go Sedan,Petrol
+598,Bike,Petrol
+599,Uber Auto,Electric
+600,Bike,Petrol
+601,Bike,Petrol
+602,Bike,Electric
+603,Bike,Electric
+604,Uber Green,Electric
+605,Uber Green,Electric
+606,Uber XL,Electric
+607,Premier,Electric
+608,Uber Go,CNG
+609,Uber Green,Electric
+610,Premier,Petrol
+611,Go Priority,Petrol
+612,Black,CNG
+613,Uber Green,Electric
+614,Uber Auto,Diesel
+615,Go Priority,Electric
+616,Uber Green,Electric
+617,Premier,Diesel
+618,Go Sedan,Diesel
+619,Uber Go,CNG
+620,Black,Diesel
+621,Go Sedan,Electric
+622,Uber Green,Electric
+623,Uber Auto,Diesel
+624,Uber XL,Diesel
+625,Uber Auto,Petrol
+626,Uber Auto,CNG
+627,Uber Go,Electric
+628,Premier,CNG
+629,Go Priority,Diesel
+630,Go Priority,Petrol
+631,Go Priority,Electric
+632,Uber Auto,CNG
+633,Go Priority,CNG
+634,Go Priority,Petrol
+635,Go Priority,Petrol
+636,Uber XL,Diesel
+637,Go Sedan,Electric
+638,Bike,Petrol
+639,Go Sedan,Petrol
+640,Uber Green,Electric
+641,Go Sedan,Petrol
+642,Bike,Petrol
+643,Premier,Diesel
+644,Premier,Diesel
+645,Uber Auto,CNG
+646,Uber XL,Petrol
+647,Uber Auto,Electric
+648,Black,Electric
+649,Uber Green,Electric
+650,Premier,Diesel
+651,Uber Auto,Electric
+652,Go Priority,Diesel
+653,Uber Auto,CNG
+654,Premier,Petrol
+655,Go Sedan,CNG
+656,Bike,Electric
+657,Premier,Petrol
+658,Go Priority,Petrol
+659,Black,Diesel
+660,Uber Go,CNG
+661,Uber Go,CNG
+662,Go Priority,CNG
+663,Go Priority,CNG
+664,Uber Go,Petrol
+665,Bike,Petrol
+666,Uber Go,CNG
+667,Uber Green,Electric
+668,Uber Green,Electric
+669,Black,Electric
+670,Uber Auto,Diesel
+671,Black,Electric
+672,Black,Petrol
+673,Uber Auto,Electric
+674,Bike,Petrol
+675,Black,Electric
+676,Uber Auto,Petrol
+677,Uber XL,Petrol
+678,Go Priority,Diesel
+679,Uber Go,Diesel
+680,Black,Diesel
+681,Premier,Petrol
+682,Go Priority,Electric
+683,Premier,Diesel
+684,Premier,Electric
+685,Uber Green,Electric
+686,Premier,CNG
+687,Black,Electric
+688,Go Priority,Diesel
+689,Uber Go,Petrol
+690,Uber Green,Electric
+691,Uber Auto,CNG
+692,Black,CNG
+693,Go Priority,Diesel
+694,Uber XL,Petrol
+695,Go Priority,Diesel
+696,Bike,Electric
+697,Bike,Petrol
+698,Bike,Petrol
+699,Premier,CNG
+700,Bike,Electric
+701,Premier,CNG
+702,Uber Auto,Diesel
+703,Premier,Diesel
+704,Uber XL,Diesel
+705,Uber Auto,Petrol
+706,Bike,Electric
+707,Uber Go,Petrol
+708,Go Priority,Diesel
+709,Uber XL,CNG
+710,Uber Go,Diesel
+711,Black,Petrol
+712,Uber Go,Petrol
+713,Go Sedan,Electric
+714,Uber XL,Diesel
+715,Black,Petrol
+716,Uber XL,Petrol
+717,Uber Green,Electric
+718,Go Sedan,CNG
+719,Uber Go,CNG
+720,Premier,CNG
+721,Go Sedan,Electric
+722,Go Priority,CNG
+723,Uber Auto,Diesel
+724,Uber Go,Electric
+725,Go Sedan,Diesel
+726,Uber XL,Electric
+727,Go Priority,Petrol
+728,Uber Green,Electric
+729,Black,CNG
+730,Go Sedan,CNG
+731,Uber Auto,Petrol
+732,Uber XL,Petrol
+733,Uber Green,Electric
+734,Go Priority,CNG
+735,Uber Green,Electric
+736,Premier,Electric
+737,Uber Green,Electric
+738,Go Sedan,Electric
+739,Uber Green,Electric
+740,Uber Auto,Diesel
+741,Black,Electric
+742,Uber Auto,Petrol
+743,Premier,Petrol
+744,Uber Go,Diesel
+745,Uber Auto,Petrol
+746,Uber XL,CNG
+747,Uber XL,Petrol
+748,Premier,CNG
+749,Uber XL,Diesel
+750,Go Priority,CNG
+751,Uber XL,CNG
+752,Uber XL,Electric
+753,Uber Green,Electric
+754,Premier,CNG
+755,Bike,Petrol
+756,Go Priority,Electric
+757,Bike,Electric
+758,Bike,Petrol
+759,Bike,Electric
+760,Go Sedan,CNG
+761,Bike,Electric
+762,Uber Green,Electric
+763,Uber XL,CNG
+764,Uber Green,Electric
+765,Go Priority,Petrol
+766,Go Sedan,Electric
+767,Go Sedan,Electric
+768,Go Sedan,Electric
+769,Premier,Petrol
+770,Go Sedan,Petrol
+771,Uber Auto,Electric
+772,Go Priority,Electric
+773,Uber Green,Electric
+774,Go Priority,Petrol
+775,Uber Go,Diesel
+776,Black,Petrol
+777,Premier,CNG
+778,Black,Diesel
+779,Uber XL,Diesel
+780,Bike,Petrol
+781,Bike,Petrol
+782,Bike,Petrol
+783,Bike,Electric
+784,Uber Go,Petrol
+785,Go Sedan,Electric
+786,Black,Diesel
+787,Uber Go,CNG
+788,Premier,Petrol
+789,Uber XL,Electric
+790,Premier,Electric
+791,Go Sedan,Petrol
+792,Premier,Diesel
+793,Go Priority,Petrol
+794,Uber Go,Diesel
+795,Uber Go,CNG
+796,Uber Green,Electric
+797,Uber Auto,Diesel
+798,Go Sedan,Electric
+799,Black,CNG
+800,Uber XL,Electric
+801,Premier,Petrol
+802,Bike,Petrol
+803,Uber XL,CNG
+804,Go Priority,Diesel
+805,Black,Petrol
+806,Black,Petrol
+807,Bike,Petrol
+808,Uber Go,CNG
+809,Bike,Electric
+810,Bike,Electric
+811,Go Sedan,Diesel
+812,Uber Auto,Diesel
+813,Premier,Diesel
+814,Uber XL,Diesel
+815,Premier,Diesel
+816,Uber Auto,Diesel
+817,Black,CNG
+818,Go Sedan,Electric
+819,Go Priority,CNG
+820,Uber Auto,Diesel
+821,Uber XL,Diesel
+822,Uber Auto,CNG
+823,Bike,Petrol
+824,Black,Electric
+825,Uber Green,Electric
+826,Uber XL,Electric
+827,Uber XL,Diesel
+828,Go Sedan,Diesel
+829,Uber Auto,CNG
+830,Premier,CNG
+831,Go Priority,Petrol
+832,Go Sedan,Diesel
+833,Uber Auto,CNG
+834,Uber Green,Electric
+835,Premier,Electric
+836,Go Priority,Petrol
+837,Premier,CNG
+838,Go Priority,Diesel
+839,Go Sedan,Electric
+840,Uber Green,Electric
+841,Black,CNG
+842,Black,CNG
+843,Premier,Electric
+844,Go Priority,Electric
+845,Uber XL,Electric
+846,Go Priority,Petrol
+847,Go Priority,Diesel
+848,Uber Auto,CNG
+849,Bike,Petrol
+850,Premier,CNG
+851,Black,Petrol
+852,Go Priority,Diesel
+853,Bike,Petrol
+854,Uber Go,Diesel
+855,Go Sedan,Diesel
+856,Uber Green,Electric
+857,Black,Petrol
+858,Go Priority,CNG
+859,Uber XL,Electric
+860,Uber Green,Electric
+861,Uber Auto,Diesel
+862,Uber Auto,Diesel
+863,Go Sedan,CNG
+864,Go Priority,Petrol
+865,Go Sedan,Petrol
+866,Uber Auto,Diesel
+867,Uber Green,Electric
+868,Uber XL,Diesel
+869,Uber Auto,CNG
+870,Uber Auto,Diesel
+871,Uber Auto,Diesel
+872,Premier,Petrol
+873,Go Priority,CNG
+874,Uber Green,Electric
+875,Uber Green,Electric
+876,Uber Auto,CNG
+877,Go Priority,Petrol
+878,Black,Petrol
+879,Uber Auto,Electric
+880,Uber Auto,Electric
+881,Uber Go,Petrol
+882,Black,CNG
+883,Go Sedan,Petrol
+884,Uber Green,Electric
+885,Uber Auto,Diesel
+886,Uber Auto,Electric
+887,Bike,Petrol
+888,Bike,Electric
+889,Uber Auto,Electric
+890,Uber Green,Electric
+891,Uber Auto,Electric
+892,Premier,CNG
+893,Go Priority,CNG
+894,Uber XL,Petrol
+895,Go Priority,Diesel
+896,Uber XL,Electric
+897,Black,CNG
+898,Uber Go,Electric
+899,Black,Electric
+900,Uber Go,Diesel
+901,Uber Green,Electric
+902,Go Sedan,CNG
+903,Uber Auto,Petrol
+904,Uber Go,CNG
+905,Black,CNG
+906,Uber Green,Electric
+907,Uber Go,Diesel
+908,Go Priority,Diesel
+909,Premier,Petrol
+910,Black,CNG
+911,Uber Green,Electric
+912,Go Sedan,Petrol
+913,Black,CNG
+914,Go Priority,CNG
+915,Black,Petrol
+916,Bike,Electric
+917,Bike,Petrol
+918,Uber XL,Diesel
+919,Premier,CNG
+920,Uber Green,Electric
+921,Uber Green,Electric
+922,Black,Petrol
+923,Go Sedan,Diesel
+924,Go Sedan,Diesel
+925,Premier,Diesel
+926,Uber XL,CNG
+927,Uber Green,Electric
+928,Go Sedan,Petrol
+929,Bike,Petrol
+930,Uber Go,Petrol
+931,Go Priority,Electric
+932,Bike,Petrol
+933,Go Priority,CNG
+934,Uber XL,Diesel
+935,Go Priority,Petrol
+936,Black,Electric
+937,Uber Auto,CNG
+938,Bike,Petrol
+939,Uber Go,Petrol
+940,Uber Green,Electric
+941,Uber Auto,Diesel
+942,Uber Go,Electric
+943,Uber Go,Diesel
+944,Bike,Petrol
+945,Premier,CNG
+946,Premier,Electric
+947,Uber Green,Electric
+948,Bike,Electric
+949,Black,CNG
+950,Go Sedan,CNG
+951,Black,Electric
+952,Uber Auto,Petrol
+953,Go Priority,Electric
+954,Uber Auto,Diesel
+955,Black,Diesel
+956,Premier,Electric
+957,Uber XL,CNG
+958,Uber Green,Electric
+959,Uber Go,Petrol
+960,Uber Auto,Diesel
+961,Uber Green,Electric
+962,Uber Green,Electric
+963,Uber XL,Petrol
+964,Bike,Petrol
+965,Uber Go,Electric
+966,Uber Auto,Diesel
+967,Uber Auto,Petrol
+968,Bike,Electric
+969,Uber XL,Petrol
+970,Uber Auto,Electric
+971,Black,Petrol
+972,Premier,CNG
+973,Bike,Electric
+974,Bike,Electric
+975,Uber Go,Diesel
+976,Go Sedan,Diesel
+977,Uber Green,Electric
+978,Go Sedan,CNG
+979,Go Priority,Electric
+980,Uber Green,Electric
+981,Uber XL,Petrol
+982,Black,CNG
+983,Go Sedan,Electric
+984,Uber Go,Petrol
+985,Uber XL,Diesel
+986,Bike,Petrol
+987,Uber Green,Electric
+988,Uber Auto,Diesel
+989,Uber Go,CNG
+990,Uber XL,CNG
+991,Uber Auto,CNG
+992,Bike,Electric
+993,Uber Go,Electric
+994,Go Priority,CNG
+995,Uber Go,Petrol
+996,Uber Go,CNG
+997,Uber Green,Electric
+998,Black,CNG
+999,Premier,Petrol
+1000,Uber XL,Electric
+1001,Premier,Diesel
+1002,Black,Electric
+1003,Go Priority,Electric
+1004,Premier,Petrol
+1005,Go Priority,Electric
+1006,Uber Green,Electric
+1007,Uber Go,Diesel
+1008,Premier,Petrol
+1009,Uber XL,CNG
+1010,Premier,Diesel
+1011,Black,Diesel
+1012,Uber Auto,Diesel
+1013,Uber XL,CNG
+1014,Uber XL,Petrol
+1015,Go Priority,Electric
+1016,Uber Green,Electric
+1017,Uber XL,Petrol
+1018,Uber Auto,Diesel
+1019,Black,Diesel
+1020,Uber XL,Diesel
+1021,Bike,Electric
+1022,Premier,CNG
+1023,Black,Electric
+1024,Uber Green,Electric
+1025,Black,CNG
+1026,Premier,Diesel
+1027,Uber XL,CNG
+1028,Premier,Petrol
+1029,Premier,CNG
+1030,Go Priority,Diesel
+1031,Premier,Electric
+1032,Black,Electric
+1033,Uber Green,Electric
+1034,Bike,Petrol
+1035,Go Sedan,CNG
+1036,Bike,Electric
+1037,Go Priority,Diesel
+1038,Premier,CNG
+1039,Bike,Petrol
+1040,Premier,Petrol
+1041,Black,Electric
+1042,Black,Diesel
+1043,Uber Auto,Diesel
+1044,Uber Go,Diesel
+1045,Premier,Petrol
+1046,Black,CNG
+1047,Uber Go,Diesel
+1048,Go Sedan,Petrol
+1049,Uber XL,CNG
+1050,Uber Go,Petrol
+1051,Uber Auto,Electric
+1052,Uber Auto,CNG
+1053,Premier,Petrol
+1054,Bike,Petrol
+1055,Go Sedan,CNG
+1056,Uber XL,CNG
+1057,Go Sedan,Electric
+1058,Uber Auto,Electric
+1059,Uber XL,Petrol
+1060,Uber XL,CNG
+1061,Go Sedan,CNG
+1062,Uber Auto,Electric
+1063,Go Priority,Electric
+1064,Uber Green,Electric
+1065,Uber XL,Diesel
+1066,Go Priority,Electric
+1067,Premier,Petrol
+1068,Go Sedan,Petrol
+1069,Go Priority,Electric
+1070,Go Sedan,CNG
+1071,Premier,Diesel
+1072,Black,Diesel
+1073,Premier,Petrol
+1074,Uber XL,Petrol
+1075,Bike,Electric
+1076,Uber Green,Electric
+1077,Uber Auto,Diesel
+1078,Uber Auto,Petrol
+1079,Black,Petrol
+1080,Premier,CNG
+1081,Go Sedan,Electric
+1082,Bike,Petrol
+1083,Go Sedan,Diesel
+1084,Uber Auto,Diesel
+1085,Premier,CNG
+1086,Black,Diesel
+1087,Bike,Electric
+1088,Uber Go,Electric
+1089,Black,CNG
+1090,Black,CNG
+1091,Uber Go,Petrol
+1092,Bike,Electric
+1093,Go Priority,Electric
+1094,Black,Petrol
+1095,Black,Diesel
+1096,Black,Electric
+1097,Uber Go,Electric
+1098,Go Sedan,Electric
+1099,Black,Petrol
+1100,Go Sedan,Petrol
+1101,Uber Auto,CNG
+1102,Bike,Electric
+1103,Bike,Electric
+1104,Uber XL,Petrol
+1105,Go Priority,CNG
+1106,Uber Auto,Diesel
+1107,Uber XL,Electric
+1108,Black,Petrol
+1109,Uber XL,Diesel
+1110,Uber XL,CNG
+1111,Black,Electric
+1112,Uber Auto,Petrol
+1113,Black,Electric
+1114,Uber XL,Electric
+1115,Go Sedan,CNG
+1116,Go Sedan,Electric
+1117,Uber Go,Diesel
+1118,Uber XL,Petrol
+1119,Uber Go,Petrol
+1120,Bike,Petrol
+1121,Premier,CNG
+1122,Bike,Petrol
+1123,Go Priority,Diesel
+1124,Go Sedan,Diesel
+1125,Uber XL,Electric
+1126,Bike,Petrol
+1127,Uber XL,Diesel
+1128,Uber XL,CNG
+1129,Black,Diesel
+1130,Premier,Diesel
+1131,Bike,Electric
+1132,Uber Go,Electric
+1133,Bike,Electric
+1134,Bike,Electric
+1135,Bike,Electric
+1136,Uber Go,CNG
+1137,Go Sedan,Diesel
+1138,Uber XL,CNG
+1139,Uber Auto,CNG
+1140,Black,Petrol
+1141,Premier,Electric
+1142,Uber Green,Electric
+1143,Uber Auto,Petrol
+1144,Premier,Electric
+1145,Go Sedan,CNG
+1146,Uber Auto,Electric
+1147,Go Priority,Diesel
+1148,Uber Go,Electric
+1149,Go Sedan,CNG
+1150,Uber Auto,Electric
+1151,Uber Go,CNG
+1152,Uber XL,Electric
+1153,Uber Auto,Petrol
+1154,Premier,Diesel
+1155,Bike,Petrol
+1156,Uber Go,Diesel
+1157,Black,Electric
+1158,Uber XL,Petrol
+1159,Uber Green,Electric
+1160,Uber Green,Electric
+1161,Go Sedan,Petrol
+1162,Black,CNG
+1163,Go Priority,Petrol
+1164,Black,Diesel
+1165,Go Priority,CNG
+1166,Go Sedan,Petrol
+1167,Premier,Diesel
+1168,Uber Green,Electric
+1169,Go Sedan,Electric
+1170,Premier,Electric
+1171,Uber Go,CNG
+1172,Black,Electric
+1173,Bike,Petrol
+1174,Bike,Electric
+1175,Go Priority,Petrol
+1176,Uber XL,Electric
+1177,Bike,Electric
+1178,Uber Go,Diesel
+1179,Go Sedan,Electric
+1180,Black,Electric
+1181,Uber Go,Petrol
+1182,Black,Diesel
+1183,Uber Green,Electric
+1184,Uber XL,Electric
+1185,Uber Green,Electric
+1186,Uber Green,Electric
+1187,Uber Green,Electric
+1188,Premier,Electric
+1189,Go Sedan,Diesel
+1190,Premier,Electric
+1191,Premier,Diesel
+1192,Go Sedan,Diesel
+1193,Bike,Petrol
+1194,Bike,Petrol
+1195,Uber Go,Petrol
+1196,Black,CNG
+1197,Uber Green,Electric
+1198,Bike,Petrol
+1199,Uber Green,Electric
+1200,Uber Go,CNG
+1201,Premier,CNG
+1202,Uber Green,Electric
+1203,Uber Auto,CNG
+1204,Uber XL,Diesel
+1205,Uber XL,Petrol
+1206,Uber Auto,Petrol
+1207,Black,Diesel
+1208,Uber Auto,Diesel
+1209,Uber Go,Petrol
+1210,Black,CNG
+1211,Go Sedan,CNG
+1212,Uber Auto,Diesel
+1213,Go Priority,Electric
+1214,Bike,Electric
+1215,Premier,Electric
+1216,Premier,Petrol
+1217,Premier,CNG
+1218,Uber Auto,Electric
+1219,Go Priority,Electric
+1220,Uber XL,CNG
+1221,Go Sedan,Petrol
+1222,Go Priority,Electric
+1223,Bike,Petrol
+1224,Go Sedan,Electric
+1225,Uber Auto,Electric
+1226,Uber Green,Electric
+1227,Bike,Electric
+1228,Premier,Electric
+1229,Uber XL,Electric
+1230,Go Sedan,Electric
+1231,Black,CNG
+1232,Uber XL,Electric
+1233,Go Priority,Petrol
+1234,Go Priority,Petrol
+1235,Go Priority,Electric
+1236,Uber Go,Diesel
+1237,Uber XL,Diesel
+1238,Bike,Electric
+1239,Black,Electric
+1240,Uber Auto,Electric
+1241,Uber Green,Electric
+1242,Go Sedan,Petrol
+1243,Uber Auto,Electric
+1244,Black,Diesel
+1245,Uber Go,Petrol
+1246,Go Priority,Electric
+1247,Bike,Electric
+1248,Black,Electric
+1249,Black,CNG
+1250,Bike,Petrol
+1251,Uber Green,Electric
+1252,Uber XL,Diesel
+1253,Black,Diesel
+1254,Uber Green,Electric
+1255,Uber Auto,CNG
+1256,Uber XL,CNG
+1257,Premier,CNG
+1258,Premier,Electric
+1259,Uber Auto,Petrol
+1260,Uber Green,Electric
+1261,Premier,Diesel
+1262,Go Priority,CNG
+1263,Go Priority,CNG
+1264,Bike,Electric
+1265,Go Sedan,Diesel
+1266,Black,Diesel
+1267,Premier,CNG
+1268,Black,Electric
+1269,Go Sedan,Electric
+1270,Premier,Electric
+1271,Go Sedan,Diesel
+1272,Go Priority,Diesel
+1273,Go Sedan,Electric
+1274,Uber Auto,Electric
+1275,Uber Green,Electric
+1276,Uber Auto,CNG
+1277,Bike,Electric
+1278,Go Priority,CNG
+1279,Black,Petrol
+1280,Uber Auto,Diesel
+1281,Uber XL,CNG
+1282,Go Priority,CNG
+1283,Uber XL,Diesel
+1284,Uber XL,CNG
+1285,Bike,Petrol
+1286,Go Sedan,Petrol
+1287,Black,CNG
+1288,Uber XL,CNG
+1289,Go Sedan,Petrol
+1290,Uber Go,CNG
+1291,Uber Go,CNG
+1292,Bike,Petrol
+1293,Uber Auto,Electric
+1294,Uber Green,Electric
+1295,Uber Go,Petrol
+1296,Bike,Electric
+1297,Uber XL,Electric
+1298,Uber XL,CNG
+1299,Go Priority,Petrol
+1300,Go Sedan,Diesel
+1301,Go Priority,Petrol
+1302,Go Sedan,CNG
+1303,Premier,CNG
+1304,Go Priority,Diesel
+1305,Black,Electric
+1306,Go Sedan,CNG
+1307,Go Priority,Petrol
+1308,Go Priority,Electric
+1309,Uber Auto,CNG
+1310,Go Sedan,CNG
+1311,Premier,Electric
+1312,Uber Auto,Diesel
+1313,Premier,Electric
+1314,Black,Diesel
+1315,Uber Go,Petrol
+1316,Uber XL,Electric
+1317,Uber XL,Electric
+1318,Go Sedan,Diesel
+1319,Go Priority,Petrol
+1320,Black,Electric
+1321,Uber XL,Diesel
+1322,Uber XL,CNG
+1323,Bike,Petrol
+1324,Uber XL,Petrol
+1325,Uber XL,Diesel
+1326,Uber Go,Diesel
+1327,Uber XL,Electric
+1328,Uber Auto,Petrol
+1329,Black,Electric
+1330,Uber XL,CNG
+1331,Bike,Electric
+1332,Go Sedan,Petrol
+1333,Uber Auto,CNG
+1334,Black,Diesel
+1335,Go Sedan,Diesel
+1336,Go Sedan,Electric
+1337,Uber Go,CNG
+1338,Go Sedan,CNG
+1339,Uber Auto,Petrol
+1340,Uber XL,Diesel
+1341,Go Sedan,Petrol
+1342,Premier,Diesel
+1343,Go Priority,Petrol
+1344,Uber Auto,Electric
+1345,Uber Auto,Diesel
+1346,Uber XL,Petrol
+1347,Uber Green,Electric
+1348,Uber Go,Petrol
+1349,Go Sedan,Petrol
+1350,Uber Go,Electric
+1351,Uber Green,Electric
+1352,Uber Green,Electric
+1353,Go Priority,Electric
+1354,Go Sedan,CNG
+1355,Black,Petrol
+1356,Uber Green,Electric
+1357,Premier,Diesel
+1358,Go Sedan,CNG
+1359,Go Sedan,Petrol
+1360,Bike,Petrol
+1361,Go Sedan,Petrol
+1362,Uber Auto,Petrol
+1363,Uber Auto,Petrol
+1364,Go Sedan,Diesel
+1365,Go Priority,Electric
+1366,Go Sedan,Electric
+1367,Go Priority,CNG
+1368,Black,Diesel
+1369,Go Priority,Electric
+1370,Uber Go,CNG
+1371,Uber Auto,Petrol
+1372,Bike,Electric
+1373,Uber Green,Electric
+1374,Bike,Electric
+1375,Black,Diesel
+1376,Uber Go,Diesel
+1377,Uber Go,Petrol
+1378,Go Priority,Electric
+1379,Go Priority,Electric
+1380,Uber Green,Electric
+1381,Bike,Electric
+1382,Bike,Petrol
+1383,Uber Go,Electric
+1384,Bike,Electric
+1385,Uber Green,Electric
+1386,Go Priority,Petrol
+1387,Uber XL,CNG
+1388,Uber Green,Electric
+1389,Uber Auto,Diesel
+1390,Black,CNG
+1391,Bike,Electric
+1392,Uber Auto,CNG
+1393,Uber Auto,Petrol
+1394,Go Sedan,Diesel
+1395,Go Sedan,Petrol
+1396,Uber Go,Petrol
+1397,Bike,Electric
+1398,Uber Green,Electric
+1399,Black,CNG
+1400,Uber Go,Petrol
+1401,Black,CNG
+1402,Uber Go,Diesel
+1403,Black,Diesel
+1404,Black,Petrol
+1405,Uber XL,Diesel
+1406,Uber XL,CNG
+1407,Uber Green,Electric
+1408,Go Priority,CNG
+1409,Premier,CNG
+1410,Uber Green,Electric
+1411,Black,Electric
+1412,Uber Go,Petrol
+1413,Black,CNG
+1414,Uber Go,Diesel
+1415,Uber Auto,CNG
+1416,Uber XL,CNG
+1417,Uber XL,Diesel
+1418,Bike,Electric
+1419,Go Priority,Diesel
+1420,Black,Petrol
+1421,Uber Go,Petrol
+1422,Go Priority,Diesel
+1423,Black,Diesel
+1424,Uber Green,Electric
+1425,Go Priority,Diesel
+1426,Premier,Petrol
+1427,Premier,CNG
+1428,Uber XL,CNG
+1429,Uber Auto,Diesel
+1430,Black,Diesel
+1431,Uber Go,Electric
+1432,Bike,Petrol
+1433,Uber XL,Electric
+1434,Bike,Electric
+1435,Uber Green,Electric
+1436,Uber Green,Electric
+1437,Premier,CNG
+1438,Uber XL,CNG
+1439,Uber Green,Electric
+1440,Uber XL,Petrol
+1441,Uber Auto,Petrol
+1442,Bike,Petrol
+1443,Uber Go,Petrol
+1444,Go Sedan,Diesel
+1445,Go Priority,CNG
+1446,Go Priority,CNG
+1447,Bike,Electric
+1448,Bike,Petrol
+1449,Black,CNG
+1450,Go Sedan,Petrol
+1451,Uber Auto,CNG
+1452,Uber Go,Petrol
+1453,Bike,Petrol
+1454,Go Sedan,Electric
+1455,Uber XL,Diesel
+1456,Black,Diesel
+1457,Uber XL,Petrol
+1458,Bike,Petrol
+1459,Go Sedan,CNG
+1460,Uber Auto,CNG
+1461,Premier,Petrol
+1462,Go Priority,Electric
+1463,Go Priority,Diesel
+1464,Uber Auto,Diesel
+1465,Uber Green,Electric
+1466,Go Priority,CNG
+1467,Bike,Petrol
+1468,Go Priority,Diesel
+1469,Uber Green,Electric
+1470,Go Sedan,Diesel
+1471,Bike,Electric
+1472,Go Priority,Diesel
+1473,Go Priority,Electric
+1474,Uber Go,Petrol
+1475,Premier,Diesel
+1476,Black,Electric
+1477,Uber Green,Electric
+1478,Uber Auto,Electric
+1479,Uber Auto,Petrol
+1480,Uber XL,Diesel
+1481,Go Sedan,Electric
+1482,Uber Green,Electric
+1483,Bike,Electric
+1484,Uber Go,Electric
+1485,Go Priority,Electric
+1486,Bike,Electric
+1487,Uber Go,CNG
+1488,Go Sedan,Petrol
+1489,Black,Electric
+1490,Uber Go,CNG
+1491,Black,Electric
+1492,Go Sedan,CNG
+1493,Bike,Petrol
+1494,Go Sedan,Diesel
+1495,Uber Auto,CNG
+1496,Go Sedan,Petrol
+1497,Uber Go,Petrol
+1498,Black,CNG
+1499,Go Priority,Petrol
+1500,Uber XL,Petrol
