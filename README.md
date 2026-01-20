@@ -226,7 +226,7 @@ Based on the comprehensive analysis of the 2025 Uber India dataset, the followin
 
 Important Links:  
 Uber Dataset --> [Dataset](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/tree/main/dataset)  
-Detailed Queries Analysis --> [Queries Walkthrough]([/uber_questions.sql](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/tree/main/uber_questions.sql))
+Detailed Queries Analysis --> [Queries Walkthrough](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/blob/main/uber_questions.sql)
 
 
 
