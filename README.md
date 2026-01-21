@@ -22,6 +22,8 @@ Uber dataset used for project can be found [here](https://github.com/Rustadit/Ub
 
 Targeted SQL queries regarding various business questions can be found [here](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/blob/main/uber_questions.sql)
 
+Walkthrough for each SQL query can be found [here](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/tree/main/queries_walkthrough)
+
 ## **Data Structure and Overview**
 
 This section provides blueprint of the project. It describes how different data points—from a user’s click on a phone to a driver’s completed trip—are connected through a relational schema.
