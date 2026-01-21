@@ -18,6 +18,9 @@ Uber has evolved into a multi-modal ride-sharing platform offering services acro
   
 **Note**: This project utilizes a synthetically generated dataset modeled after real-world ride-sharing dynamics. It is designed specifically for portfolio demonstration to showcase advanced analytical capabilities in a complex business environment.
 
+Uber dataset used for project can be found [here](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/tree/main/dataset)  
+
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/blob/main/uber_questions.sql)
 
 ## **Data Structure and Overview**
 
@@ -25,11 +28,9 @@ This section provides blueprint of the project. It describes how different data 
 
 ### **Entity Relationship Diagram (ERD)**
 
-The project is built on a **Star Schema** architecture, designed for optimized analytical querying. At the center sits the transactional data, which is supported by various dimension tables providing context on users, drivers, geography, and vehicle types.
+The project is built on a **Star Schema** architecture, designed for optimized analytical querying. At the center sits the transactional data, which is supported by various dimension tables providing context on users, drivers, geography and vehicle types.
 
  ![](images/entity_relationship_schema.jpg)
-
-
 
 ### **Table Descriptions**
 
@@ -38,7 +39,7 @@ The dataset consists of **seven interconnected tables**, capturing a 360-degree 
 #### **1. `Rides`**
 
 * **Purpose:** The central transaction log containing every ride request made on the platform.
-* **Key Metrics:** Ride Status (Completed, Cancelled, No Driver Found), Fare (INR), Distance (KM), and Timestamps.
+* **Key Metrics:** Ride Status (Completed, Cancelled, No Driver Found), Fare (INR), Distance (KM) and Timestamps.
 * **Primary/Foreign Keys:** `Ride_ID` (PK), `Session_ID` (FK), `Driver_ID` (FK).
 
 #### 2. `App_Sessions`
@@ -62,7 +63,7 @@ The dataset consists of **seven interconnected tables**, capturing a 360-degree 
 #### 5. `Drivers`
 
 * **Purpose:** Contains attributes of the supply side (the driver partners).
-* **Key Metrics:** Total Trips Completed (Historical) and Joining Date.
+* **Key Metrics:** Total Trips Completed and Joining Date.
 * **Primary/Foreign Keys:** `Driver_ID` (PK), `Vehicle_ID` (FK), `City_ID` (FK).
 
 #### 6. `Cities`
@@ -82,18 +83,18 @@ The dataset consists of **seven interconnected tables**, capturing a 360-degree 
 
 ### **Analytical Assumptions**
 
-* **Linear User Journey & Post-Confirmation Exit:** The app journey follows a sequential path: `Home Page`  `Where to?`  `Choose a Ride`  `Confirm Pick-up`. From here, the journey either ends in a `No Driver Found` state or a `Ride Confirmed` state. **Crucially, even after a ride is confirmed, a user has the provision to "Cancel the Ride"** due to change of intent or excessive wait times.
-* **Cancellation Timing & Null States:** It is assumed that all cancellations (by both riders and drivers) occur **prior to the driver's arrival** at the pickup location. Consequently, the `Arrival_Timestamp` is always null for these records, and no "Waiting Fee" is applied.
+* **Linear User Journey & Post-Confirmation Exit:** The app journey follows a sequential path: `Home Page`->  `Where to?`->  `Choose a Ride`->  `Confirm Pick-up`. From here, the journey either ends in a `No Driver Found` state or a `Ride Confirmed` state. **Crucially, even after a ride is confirmed, a user has the provision to "Cancel the Ride"** due to change of intent or excessive wait times.
+* **Cancellation Timing & Null States:** It is assumed that all cancellations (by both riders and drivers) occur **prior to the driver's arrival** at the pickup location. Consequently, the `Arrival_Timestamp` is always null for these records and no "Waiting Fee" is applied.
 * **Single-Stop Constraint:** Every ride request is restricted to a maximum of **one stop**. Multi-stop routing or dynamic route changes during a trip were not factored into the distance or fare calculations.
 * **Static Take-Rate:** The platform commission is calculated at a fixed **25% of the total fare** across all vehicle tiers and regions, reflecting a simplified revenue model for the 2025 fiscal year.
 
-### **Project Limitations**
+### **Limitations**
 
 * **Absence of Sentiment & Quality Metrics:** The study does not incorporate **Driver or User Ratings**. Therefore, the analysis cannot correlate churn or cancellations with the quality of the service provided by the driver or the behavior of the rider.
-* **Exclusion of Macro-Variables:** The analysis does not account for **external factors** such as weather patterns (e.g., monsoon impact on Uber Auto demand), local fuel price hikes, or major city-wide holidays.
+* **Exclusion of Macro-Variables:** The analysis does not account for **external factors** such as weather patterns (e.g., monsoon impact on Uber Auto demand), local fuel price hikes or major city-wide holidays.
 * **Geospatial Simplification:** While pickup and drop-off points are identified, the study treats routing as a function of distance and time without accounting for real-time traffic congestion or road closures.
 
-### **The SQL Toolkit**
+### **SQL Toolkit**
 
 To transform this raw data into strategic insights, the project leverages advanced SQL functions used in an abstract, modular sense:
 
@@ -107,10 +108,10 @@ To transform this raw data into strategic insights, the project leverages advanc
 
 ## **Executive Summary**
 
-The following Executive Summary provides a data-driven overview of Uber India’s 2025 performance, focusing on revenue integrity, operational bottlenecks, and user loyalty.
+The following Executive Summary provides a data-driven overview of Uber India’s 2025 performance, focusing on revenue integrity, operational bottlenecks and user loyalty.
 
 
-The 2025 fiscal year analysis reveals a platform driven by the **South region**, which generated approximately **₹2.42 million** in gross platform revenue, followed closely by the **West at ₹2.40 million**. At the city level, **Kolkata** leads in revenue at **~₹1.22 million**, but it also experiences the highest revenue leakage, losing approximately **₹281,296** to "No Driver Found" (NDF) and driver cancellations. Despite these challenges, the platform maintained a strong **77.99% session-to-booked-ride conversion rate**, converting **54,559 sessions** into bookings out of **69,955 total sessions**. Monthly ride volume showed notable volatility, with a **9.27% dip in February** followed by a **9.20% recovery in March**, eventually stabilizing at **4,144 completed rides in December**.
+The 2025 fiscal year analysis reveals a platform driven by the **South region**, which generated approximately **₹2.42 million** in gross platform revenue, followed closely by the **West at ₹2.40 million**. At the city level, **Kolkata** leads in revenue at **~₹1.22 million**, but it also experiences the highest revenue leakage, losing approximately **₹281,296** to **"No Driver Found"**  and **"Cancelled by Driver"** status. Despite these challenges, the platform maintained a strong **77.99% session-to-booked-ride conversion rate**, converting **54,559 sessions** into bookings out of **69,955 total sessions**. Monthly ride volume showed notable volatility, with a **9.27% dip in February** followed by a **9.20% recovery in March**, eventually stabilizing at **4,144 completed rides in December**.
 
 Marketplace health is currently impacted by significant operational friction. **Hyderabad** reported the highest percentage of **under-utilized drivers at 50.79%**. Supply density issues are most evident in **Pune**, which recorded the highest average driver arrival lag of **7 minutes and 32 seconds**. Specific localities like **Hayathnagar in Hyderabad (3.43%)** and **Chanakyapuri in Delhi-NCR (3.39%)** were identified as having the highest cancellation rates, pinpointing areas where drivers are most reluctant to operate. Furthermore, **11 PM (Hour 23)** emerged as the most critical time for marketplace failure, recording **206 "No Driver Found" events**.
 
@@ -129,10 +130,10 @@ This category focuses on the economic health of the platform, identifying primar
 
 **Key Category Insights:**
 
-* The marketplace shows a clear hierarchy with the **South region** leading at **2,420,306.75**, followed closely by the **West**. The **North** and **East** regions contribute significantly less, each generating roughly half of the revenue seen in the leading markets.
+* The marketplace shows a clear hierarchy with the **South region** leading at **₹2,420,306.75**, followed closely by the **West**. The **North** and **East** regions contribute significantly less, each generating roughly half of the revenue seen in the leading markets.
 
 
-* **Kolkata** is the top-performing city with **1,225,311.94** in gross revenue, yet it simultaneously faces the highest **Platform Revenue Loss** of **281,296.72** due to cancellations and supply failures.
+* **Kolkata** is the top-performing city with **₹1,225,311.94** in gross revenue, yet it simultaneously faces the highest **Platform Revenue Loss** of **₹281,296.72** due to cancellations and supply failures.
 
 
 * While regular riders show a balanced distribution across all payment methods, the **Top 5% Power Riders** exhibit a distinct peak in **Cash usage (21.20% share)** and a notable decline in **Uber Wallet usage (18.83%)** compared to the bottom 95%.
@@ -190,7 +191,7 @@ This category examines the technical performance of the application and the beha
 * The app recorded **54,559 booked rides** out of **69,955 sessions**, resulting in a high **77.99% session-to-booked conversion rate**, indicating strong user intent once the app is opened.
 
 
-* Completion-to-cancellation ratios are remarkably consistent across payment modes, hovering around **4.69** for **Cash, UPI, and Debit Cards**, though **Uber Wallet** shows a slightly lower ratio of **4.47**.
+* Completion-to-cancellation ratios are remarkably consistent across payment modes, hovering around **4.69** for **Cash, UPI and Debit Cards**, though **Uber Wallet** shows a slightly lower ratio of **4.47**.
 
 
 * The analysis identified **1,416 "At-Risk" users**. This group has an average historical spend of **3,338** but has been inactive for an average of **129 days**.
@@ -222,11 +223,7 @@ Based on the comprehensive analysis of the 2025 Uber India dataset, the followin
 
 5. Finally, technical optimizations should focus on the Android user base; while these users generate high revenue per session, improving the technical conversion funnel to match the efficiency of iOS would ensure that high user intent consistently translates into completed transactions.
 
----
 
-Important Links:  
-Uber Dataset --> [Dataset](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/tree/main/dataset)  
-Detailed Queries Analysis --> [Queries Walkthrough](https://github.com/Rustadit/Uber-Data-Analysis-Project-2025-SQL/blob/main/uber_questions.sql)
 
 
 
