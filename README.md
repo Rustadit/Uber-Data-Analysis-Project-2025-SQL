@@ -32,7 +32,7 @@ This section provides blueprint of the project. It describes how different data 
 
 The project is built on a **Star Schema** architecture, designed for optimized analytical querying. At the center sits the transactional data, which is supported by various dimension tables providing context on users, drivers, geography and vehicle types.
 
- ![](images/entity_relationship_schema.jpg)
+ ![](images/entity_relationship_schema.png)
 
 ### **Table Descriptions**
 
